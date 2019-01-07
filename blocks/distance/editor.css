@@ -1,0 +1,26 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-distance-calc-distance{
+	border-radius: 5px;
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    padding: 10px;
+    color: #888;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.wp-block-distance-calc-distance input,
+.wp-block-distance-calc-distance input:focus{
+	border: none !important;
+    border-bottom: 1px solid #aaa !important;
+    background: transparent;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+.wp-block-distance-calc-distance input:focus{
+    color: #777;
+}

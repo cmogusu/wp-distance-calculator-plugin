@@ -1,0 +1,19 @@
+/**
+ * The following styles get applied both on the front of your site and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-distance-calc-distance{
+	background-color: transparent;
+	margin:0;
+	padding:0;
+}
+.wp-block-distance-calc-distance iframe{
+	height: 260px !important;
+}
+@media (max-width: 767.98px) {
+  .wp-block-distance-calc-distance iframe{
+    height: 350px !important;
+  }
+}
